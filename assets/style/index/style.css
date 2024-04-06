@@ -220,3 +220,22 @@ font-weight: 900;
   background: url(../../img/heart\ —\ копия.png);
 }
 
+.footer-links{
+  color: white;
+  display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-img{
+  width: 200px;
+  height: 80px;
+}
+.footer{
+  margin-top: 45px;
+  border-top: 5px rgb(45, 45, 45) ;
+}
+
