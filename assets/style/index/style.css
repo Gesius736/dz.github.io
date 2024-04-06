@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020204;
+  font-family: "Jost";
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.nav {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #32323d;
+}
+
+.info-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.info-button_item {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 0;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+.info-button_item:hover {
+  color: #c7a17a;
+}
+
+.nav-info_tel {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-links .wrapper {
+  align-items: center;
+
+}
+
+.nav-links {
+  padding: 35px 0;
+  border: 1px solid #32323d;
+}
+
+.links-navigation {
+  display: flex;
+  gap: 35px;
+}
+
+.links-navigation_item {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.links-navigation_item:hover{
+  color: #c7a17a;
+}
+
+.links-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.links-buttons_item {
+  background-color: transparent;
+  border: 0;
+}
+
+.nav-links_logo {
+  height: 60px;
+}
+.header{
+  height: 720px;
+  background-image: url(../../img/header-bg.png);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+.header-title{
+ color: white;
+}
+.header-text{
+  color: white;
+
+}
+.header-links_item{
+  color: white;
+  padding: 15px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:  0.5s;
+}
+.header-links_item:hover{
+  background-color: white;
+  color: black;
+  
+}
+
+.header-links_buy{
+  background-color: #C7A17A;
+  
+}
+.header-links_more{
+  background-color: transparent;
+  border: 1px solid #666681;
+}
+.header-links{
+  display: flex;
+  gap: 10px
+}
+.header .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;    
+}
+
+marquee{
+  color: red;
+  
+}
+.main-catalog-header{
+  color: white;
+  font-size: 40px;
+font-style: normal;
+font-weight: 900;
+padding-bottom: 40px;
+padding-top: 80px;
+}
+
+.catalog-item{
+  background-color: #14141D;
+  min-width: 390px;
+  min-height: 370px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.catalog-item:hover{
+  background-color: #22222F;
+  .catalog-item-content_text{
+    color: #b68c63;;
+  }
+}
+
+.main-catalog-item
+{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  
+}
+.catalog-item-img{
+  margin-top: 20px;
+  width: 100px;
+height: 200px;
+}
+.catalog-item-content_text{
+  color: white;
+  font-size: 25px;
+  font-style: normal;
+  line-height: normal;
+text-transform: uppercase;
+font-weight: 900;
+}
+.price-text{
+  color: white;
+}
+.price{
+  display: flex;
+  gap: 265px;
+}
+.catalog-item-content{
+  gap: 50px;
+  
+}
+.price-img{
+  background-color: transparent;
+  transition: 0.5s;
+
+}
+.price-img:hover{
+  background: url(../../img/heart\ —\ копия.png);
+}
+
